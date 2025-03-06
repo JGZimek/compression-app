@@ -1,1 +1,1 @@
-# compression-app
+# Compression app
