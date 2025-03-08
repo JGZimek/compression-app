@@ -2,8 +2,8 @@ from gui.app import App
 
 
 def main():
-    application = App()
-    application.run()
+    app = App()
+    app.run()
 
 
 if __name__ == "__main__":
