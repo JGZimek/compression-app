@@ -1,0 +1,40 @@
+How to write an Algorithm?
+
+Example:
+
+class Huffman(Algorithm):
+
+    @staticmethod
+    def compress(data: [ADD TYPING], params: dict[str, str]) -> [ADD RETURN TYPING]:
+        """
+        Description
+
+        :param data:
+        :param params:
+        """
+        ...
+
+    @staticmethod
+    def decompress(data: [ADD TYPING], params: dict[str, str]) -> [ADD RETURN TYPING]:
+        """
+        Description
+
+        :param data:
+        :param params:
+        """
+        ...
+
+Rules and Suggestions:
+ -Use black formatter:
+  'python -m black -l 100 ./'
+ -Keep your algorithms in separate files or in the same algorithm.py file (we will change it to algorithms.py then)
+    and resolve merge conflicts when they occur
+ -Add typing suggestions
+ -Add docstrings to the functions
+ -Use sensible variable names
+ -Imports should be sorted alphabetically and divided by:
+     - imports that include the whole package, like 'import os' or 'import numpy'
+     - imports that use from keyword like 'from abc import ABC'
+     - imports that include self-written code (code that we wrote here) 'from algorithm.py import Algorithm'
+
+-Use utils.py if a function or some data structure could be used by more than one algorithm.
