@@ -33,3 +33,4 @@ class Algorithm(ABC):
         raise NotImplementedError(
             "'Algorithm' is an abstract class, method 'decompress' is not implemented."
         )
+
