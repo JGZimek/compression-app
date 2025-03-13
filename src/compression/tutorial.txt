@@ -14,16 +14,6 @@ class Huffman(Algorithm):
         """
         ...
 
-    @staticmethod
-    def decompress(data: [ADD TYPING], params: dict[str, str]) -> [ADD RETURN TYPING]:
-        """
-        Description
-
-        :param data:
-        :param params:
-        """
-        ...
-
 Rules and Suggestions:
  -Use black formatter:
   'python -m black -l 100 ./'
